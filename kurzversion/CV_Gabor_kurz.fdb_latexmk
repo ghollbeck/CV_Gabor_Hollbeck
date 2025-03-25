@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1736704681 "/Users/gaborhollbeck/Desktop/GitHub/23_CV Gabor/kurzversion/CV_Gabor_kurz.tex" "/Users/gaborhollbeck/Desktop/GitHub/23_CV Gabor/kurzversion/CV_Gabor_kurz.pdf" "CV_Gabor_kurz" 1736704682
-  "/Users/gaborhollbeck/Desktop/GitHub/23_CV Gabor/kurzversion/CV_Gabor_kurz.aux" 1736704682 2946 a783546b88c535d88d7497cac64ad053 ""
-  "/Users/gaborhollbeck/Desktop/GitHub/23_CV Gabor/kurzversion/CV_Gabor_kurz.tex" 1736704553 17457 97dd14601af31be11f7a083055ee1e74 ""
+["pdflatex"] 1737356710 "/Users/gaborhollbeck/Desktop/GitHub/23_CV Gabor/kurzversion/CV_Gabor_kurz.tex" "/Users/gaborhollbeck/Desktop/GitHub/23_CV Gabor/kurzversion/CV_Gabor_kurz.pdf" "CV_Gabor_kurz" 1737356715
+  "/Users/gaborhollbeck/Desktop/GitHub/23_CV Gabor/kurzversion/CV_Gabor_kurz.aux" 1737356710 2946 7c9495e13795267cfce731ddb8b0de4c ""
+  "/Users/gaborhollbeck/Desktop/GitHub/23_CV Gabor/kurzversion/CV_Gabor_kurz.tex" 1737356709 9134 c7c8660c5d01d715a1bf528bc2164c30 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1202520719 2840 216e6e45ad352e2456e1149f28885bee ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -114,11 +114,11 @@
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1616695603 5169178 a2ce6e2d73f603b690db6777d06dbccb ""
   "/usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1648573723 2724739 0f5cff8b00bea9585b5ef47c2f4bffc1 ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
-  "CV_Gabor_kurz.aux" 1736704682 2946 a783546b88c535d88d7497cac64ad053 "pdflatex"
-  "CV_Gabor_kurz.tex" 1736704553 17457 97dd14601af31be11f7a083055ee1e74 ""
+  "CV_Gabor_kurz.aux" 1737356710 2946 7c9495e13795267cfce731ddb8b0de4c "pdflatex"
+  "CV_Gabor_kurz.tex" 1737356709 9134 c7c8660c5d01d715a1bf528bc2164c30 ""
   (generated)
-  "CV_Gabor_kurz.pdf"
+  "CV_Gabor_kurz.log"
   "CV_Gabor_kurz.aux"
   "/Users/gaborhollbeck/Desktop/GitHub/23_CV Gabor/kurzversion/CV_Gabor_kurz.pdf"
-  "CV_Gabor_kurz.log"
   "/Users/gaborhollbeck/Desktop/GitHub/23_CV Gabor/kurzversion/CV_Gabor_kurz.log"
+  "CV_Gabor_kurz.pdf"

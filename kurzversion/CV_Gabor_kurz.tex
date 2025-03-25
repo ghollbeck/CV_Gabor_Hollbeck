@@ -1,41 +1,38 @@
 \documentclass[10pt, letterpaper]{article}
 
-% Packages:
 \usepackage[
-    ignoreheadfoot, % set margins without considering header and footer
-    top=2 cm, % separation between body and page edge from the top
-    bottom=2 cm, % separation between body and page edge from the bottom
-    left=2 cm, % separation between body and page edge from the left
-    right=2 cm, % separation between body and page edge from the right
-    footskip=1.0 cm, % separation between body and footer
-    % showframe % for debugging 
-]{geometry} % for adjusting page geometry
-\usepackage{titlesec} % for customizing section titles
-\usepackage{tabularx} % for making tables with fixed width columns
-\usepackage{array} % tabularx requires this
-\usepackage[dvipsnames]{xcolor} % for coloring text
-\definecolor{primaryColor}{RGB}{0, 0, 0} % define primary color
-\usepackage{enumitem} % for customizing lists
-\usepackage{fontawesome5} % for using icons
-\usepackage{amsmath} % for math
+    ignoreheadfoot,
+    top=2 cm,
+    bottom=2 cm,
+    left=2 cm,
+    right=2 cm,
+    footskip=1.0 cm,
+]{geometry}
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage[dvipsnames]{xcolor}
+\definecolor{primaryColor}{RGB}{0, 0, 0}
+\usepackage{enumitem}
+\usepackage{fontawesome5}
+\usepackage{amsmath}
 \usepackage[
     pdftitle={Gabor Hollbeck's CV},
     pdfauthor={Gabor Hollbeck},
     pdfcreator={LaTeX with RenderCV},
     colorlinks=true,
     urlcolor=primaryColor
-]{hyperref} % for links, metadata and bookmarks
-\usepackage[pscoord]{eso-pic} % for floating text on the page
-\usepackage{calc} % for calculating lengths
-\usepackage{bookmark} % for bookmarks
-\usepackage{lastpage} % for getting the total number of pages
-\usepackage{changepage} % for one column entries (adjustwidth environment)
-\usepackage{paracol} % for two and three column entries
-\usepackage{ifthen} % for conditional statements
-\usepackage{needspace} % for avoiding page break right after the section title
-\usepackage{iftex} % check if engine is pdflatex, xetex or luatex
+]{hyperref}
+\usepackage[pscoord]{eso-pic}
+\usepackage{calc}
+\usepackage{bookmark}
+\usepackage{lastpage}
+\usepackage{changepage}
+\usepackage{paracol}
+\usepackage{ifthen}
+\usepackage{needspace}
+\usepackage{iftex}
 
-% Ensure that generated PDF is machine readable/ATS parsable:
 \ifPDFTeX
     \input{glyphtounicode}
     \pdfgentounicode=1
@@ -46,30 +43,26 @@
 
 \usepackage{charter}
 
-% Some settings:
 \raggedright
-\AtBeginEnvironment{adjustwidth}{\partopsep0pt} % remove space before adjustwidth environment
-\pagestyle{empty} % no header or footer
-\setcounter{secnumdepth}{0} % no section numbering
-\setlength{\parindent}{0pt} % no indentation
-\setlength{\topskip}{0pt} % no top skip
-\setlength{\columnsep}{0.15cm} % set column separation
-\pagenumbering{gobble} % no page numbering
+\AtBeginEnvironment{adjustwidth}{\partopsep0pt}
+\pagestyle{empty}
+\setcounter{secnumdepth}{0}
+\setlength{\parindent}{0pt}
+\setlength{\topskip}{0pt}
+\setlength{\columnsep}{0.15cm}
+\pagenumbering{gobble}
 
 \titleformat{\section}{\needspace{4\baselineskip}\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule]
 
 \titlespacing{\section}{
-    % left space:
     -1pt
 }{
-    % top space:
     0.3 cm
 }{
-    % bottom space:
     0.2 cm
-} % section title spacing
+}
 
-\renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$} % custom bullet points
+\renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$}
 \newenvironment{highlights}{
     \begin{itemize}[
         topsep=0.10 cm,
@@ -80,8 +73,7 @@
     ]
 }{
     \end{itemize}
-} % new environment for highlights
-
+}
 
 \newenvironment{highlightsforbulletentries}{
     \begin{itemize}[
@@ -93,7 +85,7 @@
     ]
 }{
     \end{itemize}
-} % new environment for highlights for bullet entries
+}
 
 \newenvironment{onecolentry}{
     \begin{adjustwidth}{
@@ -103,7 +95,7 @@
     }
 }{
     \end{adjustwidth}
-} % new environment for one column entries
+}
 
 \newenvironment{twocolentry}[2][]{
     \onecolentry
@@ -114,7 +106,7 @@
     \switchcolumn \raggedleft \secondColumn
     \end{paracol}
     \endonecolentry
-} % new environment for two column entries
+}
 
 \newenvironment{threecolentry}[3][]{
     \onecolentry
@@ -126,30 +118,26 @@
     \switchcolumn \raggedleft \thirdColumn
     \end{paracol}
     \endonecolentry
-} % new environment for three column entries
+}
 
 \newenvironment{header}{
     \setlength{\topsep}{0pt}\par\kern\topsep\centering\linespread{1.5}
 }{
     \par\kern\topsep
-} % new environment for the header
+}
 
-\newcommand{\placelastupdatedtext}{% \placetextbox{<horizontal pos>}{<vertical pos>}{<stuff>}
-  \AddToShipoutPictureFG*{% Add <stuff> to current page foreground
+\newcommand{\placelastupdatedtext}{
+  \AddToShipoutPictureFG*{
     \put(
         \LenToUnit{\paperwidth-2 cm-0 cm+0.05cm},
         \LenToUnit{\paperheight-1.0 cm}
     ){\vtop{{\null}\makebox[0pt][c]{
         \small\color{gray}\textit{Last updated in September 2024}\hspace{\widthof{Last updated in September 2024}}
-    }}}%
-  }%
-}%
+    }}}
+  }
+}
 
-% save the original href command in a new command:
 \let\hrefWithoutArrow\href
-
-% new command for external links:
-
 
 \begin{document}
     \newcommand{\AND}{\unskip
@@ -177,10 +165,8 @@
         \kern 5.0 pt%
         \AND%
         \kern 5.0 pt%
-        \mbox{\href{https://gaborhollbeck.com/}{gaborhollbeck.com}}% \\
+        \mbox{\href{https://gaborhollbeck.com/}{gaborhollbeck.com}}%
         \\ Gabor Hollbeck is a physics graduate researcher interested in computational social science, \\ AI4Democracy applications and AI safety research.
-
-        
     \end{header}
 
     \vspace{5 pt - 0.3 cm}
@@ -192,26 +178,12 @@
         }
             \textbf{M.Sc. Physics}, ETH Zürich | Focusing on complex system dynamics\end{twocolentry}
 
-        % \vspace{0.10 cm}
-        % \begin{onecolentry}
-        %     \begin{highlights}
-        %         \item Focusing on complex system dynamics
-        %     \end{highlights}
-        % \end{onecolentry}
-
         \vspace{0.2 cm}
 
         \begin{twocolentry}{
             Sept 2021 – Feb 2022
         }
             \textbf{Visiting Undergraduate Student }, ETH Zürich\end{twocolentry}
-
-        % \vspace{0.10 cm}
-        % \begin{onecolentry}
-        %     % \begin{highlights}
-        %     %     \item GPA: 5.5/6.0
-        %     % \end{highlights}
-        % \end{onecolentry}
 
         \vspace{0.2 cm}
 
@@ -220,44 +192,14 @@
         }
             \textbf{B.Sc. Physics}, Universität Duisburg-Essen, ranked first in cohort\end{twocolentry}
 
-        % \vspace{0.10 cm}
-        % \begin{onecolentry}
-        %     \begin{highlights}
-        %         \item GPA: 1.2/1.0, ranked first in cohort
-        %     \end{highlights}
-        % \end{onecolentry}
-
     \section{Experience}
+     \begin{twocolentry}{
+            Jan 2025 – Present
+        }
+            \textbf{Student Researcher}, Comparative Global Humanities Initiative @MIT with Prof. Wiebke Denecke and Prof. Otto Scharmer\end{twocolentry}
 
+        \vspace{0.10 cm}
 
- % \begin{twocolentry}{
- %            Sep 2024 – Present
- %        }
- %            \textbf{Full Stack Engineer - EA Berkeley} \end{twocolentry}
-
- %        \vspace{0.10 cm}
- %        \begin{onecolentry}
- %            \begin{highlights}
- %                \item Creation \& Maintenance of PRMERS.com (forum for social science research)
- %            \end{highlights}
- %        \end{onecolentry}
-
- %        \vspace{0.2 cm}
-
-
-
-
-
-        %  \begin{twocolentry}{
-        %     starting Feb 2025
-        % }
-        %     \textbf{Incoming Visiting Researcher}, MIT Media Lab\end{twocolentry}
-
-        % \vspace{0.2 cm}
-
-
-
-        
         \begin{twocolentry}{
             Feb 2024 – Present
         }
@@ -267,8 +209,6 @@
         \begin{onecolentry}
             \begin{highlights}
                 \item Complex system optimization via genetic algorithms
-                % \item Social choice theory and equal shares aggregation functions applied to LLM fine-tuning 
-
             \end{highlights}
         \end{onecolentry}
 
@@ -281,35 +221,21 @@
 
         \vspace{0.2 cm}
 
-        % \begin{twocolentry}{
-        %     Nov 2022 – Nov 2024
-        % }
-        %     \textbf{Student Assistant}, Institute for Science, Technology and Policy @ETH Zürich\end{twocolentry}
-
-
-        
-
-        % \vspace{0.2 cm}
-
         \begin{twocolentry}{
             Sept 2020 – Mar 2021
         }
             \textbf{Student Researcher}, Rahman-spectroscopy on graphen, Prof. Marika Schleberger \end{twocolentry}
 
-   
         \vspace{0.2 cm}
 
-      
-
-\section{Publications}
+    \section{Publications}
 
         \begin{twocolentry}{
             2024
         }
         \href{https://arxiv.org/abs/2412.16974}{\textbf{Cannot or Should Not? Automatic Analysis of Refusal Composition in IFT/RLHF Datasets and Refusal Behavior of Black-Box LLMs,}} \href{https://neurips.cc/virtual/2024/105596}{NeurIPS  (2024)}\end{twocolentry}
 
-     \vspace{0.2 cm}
-
+        \vspace{0.2 cm}
 
         \begin{twocolentry}{
             2024 
@@ -317,74 +243,34 @@
             \href{https://www.sciencedirect.com/science/article/pii/S0378437124004618?via%3Dihub}{\textbf{Congestions and Spectral Transitions in Time-Lagged Correlations of Motorway Traffic.}} Physica A: Statistical Mechanics and Its Applications, vol. 649, 2024\end{twocolentry}
 
         \vspace{0.2 cm}
-        
-
-%         \begin{twocolentry}{
-%             2024 \\(unpublished/preprint)
-%         }
-%             \textbf{AI will solve Limits to growth, if ...  } - A study on AIs influence on the World3 complex systems dynamics model  - 2024 \end{twocolentry}
-
-
-%   \vspace{0.2 cm}
-
-
-%         \begin{twocolentry}{
-%             2024 \\(unpublished/preprint)
-%         }
-%             \textbf{Generative AI in Voting Advice Applications}  - A comprehensive comparison of various LLMs and frameworks in their and biases and accuracies in the realm of politics - 2024\end{twocolentry}
-%      \vspace{0.2 cm}
-
-     
-
-
-
-
-
 
     \section{Coding Projects \& Initiatives }
 
-
-    \begin{twocolentry}
-        {        2024 – Present}
+        \begin{twocolentry}{
+            2024 – Present
+        }
             \href{https://diplomatica.ai/}{\textbf{\underline{Diplomatica.ai}}} – Duolingo for Conflict resolution, Emotional Intelligence, AI Conversation Simulator that gives feedback on communications skills
         \end{twocolentry}
 
         \vspace{0.2 cm}
 
-        \begin{twocolentry}
-        {        2024 – Present}
-            \textbf{Founder, \href{https://elect-o-mate.eu/}{\underline{Electomate}}} – Conversational Election Tool
+        \begin{twocolentry}{
+            2024 – Present
+        }
+            \textbf{Founder, \href{https://electomate.com/}{\underline{Electomate}}} – Conversational Election Tool
         \end{twocolentry}
-        
 
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                % \item Student Research group on AI driven election tools
                 \item Recruiting and leading a team of 20+ people
-                % \item Implementation of tool for 14 countries
-                % \item Collaborations with UN and governmental organizations
             \end{highlights}
         \end{onecolentry}
 
-
-% \vspace{0.2cm}
-
-%  \begin{twocolentry}
-%         {        2024}
-%             \href{https://gabors.net/}{\textbf{\underline{SecondNetwork}}} – Semantically searchable social network with AI matching algorithm to find valubale friends in you curcle of friends
-%         \end{twocolentry}
-
-
-
-
-      
         \begin{twocolentry}{
             Nov 2023 – Present
         }
-    
             \textbf{Co-Founder}, \href{https://ethzurichaltpro.wordpress.com/}{\underline{The ETH Zürich Alt Protein Project }}\end{twocolentry}
-
 
         \vspace{0.10 cm}
         \begin{onecolentry}
@@ -394,93 +280,14 @@
             \end{highlights}
         \end{onecolentry}
 
+        \vspace{0.2 cm}
 
+        \begin{twocolentry}{
+            2024 – Present
+        }
+            \textbf{Youtube Content Creator}, \href{https://www.youtube.com/@PolylogCS}{\underline{Polylog}} (YouTube Channel on theoretical CS)\end{twocolentry}
 
-         \vspace{0.2 cm}
-
-
-      
-         \begin{twocolentry}{
-                     2024 – Present
-                 }
-                 \textbf{Youtube Content Creator}, \href{https://www.youtube.com/@PolylogCS}{\underline{Polylog}} (YouTube Channel on theoretical CS)\end{twocolentry}
-         
-                 % \vspace{0.10 cm}
-                 % \begin{onecolentry}
-                 %     \begin{highlights}
-                 %         \item Educational videos around theoretical computer science
-                 %     \end{highlights}
-                 % \end{onecolentry}
-         
-                 \vspace{0.2 cm}
-         
-         
-         
-
-         
-        % \begin{twocolentry}{
-        %     May 2023 – Apr 2024
-        % }
-        %     \textbf{Board Member \& Co-Organizer}, \href{https://zumun.ch/secretariat/}{\underline{ZuMUN 2024}}\end{twocolentry}
-        %     \vspace{0.10 cm}
-        % \begin{onecolentry}
-        %     \begin{highlights}
-        %         \item Organizing a Model United Nations conference for 100+ attendees
-        %         \item Recruiting and leading a team of 30+ people
-        %     \end{highlights}
-        % \end{onecolentry}
-
-        % \vspace{0.2 cm}
-
-
-
-          
-
-        % \vspace{0.2 cm}
-
-
-        % \begin{twocolentry}{
-        %     Dec 2022 – Jun 2023
-        % }
-        %     \textbf{Board Member}, \href{https://ethmun.org/}{\underline{ETH Model United Nations}}\end{twocolentry}
-
-
-
-  
-        % \vspace{0.2 cm}
-
-        % \begin{twocolentry}{
-        %     Nov 2021 – Sept 2022
-        % }
-        %     \textbf{Technical Team Member}, \href{https://www.tumcarbon.com/}{\underline{TUM Carbon – Carbon Removal Initiative}}\end{twocolentry}
-
-        % \vspace{0.10 cm}
-        % \begin{onecolentry}
-        %     \begin{highlights}
-        %         \item Calculation of in-sorbent CO2 diffusion in capillaries
-        %         \item Approximation of thermodynamic exchange processes
-        %         \item Pollution Risk assessment
-        %     \end{highlights}
-        % \end{onecolentry}
-
-        % \vspace{0.2 cm}
-
-        % \begin{twocolentry}{
-        %     2021
-        % }
-        %     \textbf{Team Member}, \href{https://tum-boring.com/}{\underline{TUM Boring – Innovation in Tunneling}}\end{twocolentry}
-
-        % \vspace{0.10 cm}
-        % \begin{onecolentry}
-        %     \begin{highlights}
-        %         \item Student initiative at TU Munich and winner of the Not a Boring Competition by SpaceX \& The Boring Company
-        %     \end{highlights}
-        % \end{onecolentry}
-
-        % \vspace{0.2 cm}
-
-        
-
+        \vspace{0.2 cm}
 
     \section{Skills \& Interests}
 
@@ -496,74 +303,13 @@
 
         \vspace{0.2 cm}
 
-            \textbf{Interests:}  Climate Change, Concepts of Effective Altruism (critique best described \href{https://www.youtube.com/watch?v=Lm0vHQYKI-Y}{\underline{here}}), Mindfulness, Rationality, Social Entrepreneurship, AI4Good, Complex System Dynamics
-
-
-            
-            
-            
-            
+            \textbf{Interests:}  Social Entrepreneurship, AI4Good, Complex System Dynamics, Climate Change, Mindfulness
 
     \section{Awards and Scholarships}
 
-
-    
-         \begin{twocolentry}{2024}
-            Winner of \href{https://www.linkedin.com/posts/electomatecom_great-news-last-weekend-our-team-%F0%9D%90%B0%F0%9D%90%A8-activity-7276174565603504131-ih-7?utm_source=share&utm_medium=member_desktop}{\underline{Politechathon Berlin 2024}} |Project Grant for young Students with sustainability focused inititives - U-Change program | 1st Place in \href{https://some.3b1b.co/}{\underline{3Blue1Brown Competition "Summer of Math exposition"}}
-
-
-        \end{twocolentry} 
-   
-        
-        % \begin{twocolentry}  {2022}
-        %     Winner of Best Delegate Award at Model UN HSG
-        % \end{twocolentry}
-
-        % \vspace{0.2 cm}
-
-        % \begin{twocolentry} {Sept 2021 – Feb 2022}
-        %     Scholar of Promos/DUE Mobil, Scholarship for study-related stays abroad
-        % \end{twocolentry}
-
-        % \vspace{0.2 cm}
-
-        \begin{twocolentry} {
-        Sept 2021 – Sept 2022
-        }
-            Scholar of the federal merit-based "Deutschland Stipendium"
-        \end{twocolentry}
-
-        % \vspace{0.2 cm}
-
-        % \begin{twocolentry}{
-        %     2016
-        % }
-        %     1st Place, National Photography Competition of Deutsche Stiftung Denkmalschutz (3000+ participants)\end{twocolentry}
-
-        % \vspace{0.10 cm}
-        % \begin{onecolentry}
-        %     \begin{highlights}
-        %         \item Over 3000 participants
-        %     \end{highlights}
-        % \end{onecolentry}
-
-%     \section{Freelance Videography}
-
-%         \begin{twocolentry}{
-            
-%         }
-%             \textbf{Video Producer}, German Zero e.V. (carbon neutrality initiative) - produced cinema advertisement \end{twocolentry}
+        \begin{onecolentry}
+            Winner of \href{https://www.linkedin.com/posts/electomatecom_great-news-last-weekend-our-team-%F0%9D%90%B0%F0%9D%90%A8-activity-7276174565603504131-ih-7?utm_source=share&utm_medium=member_desktop}{\underline{Politechathon Berlin 2024}} |1st Place, National Photography Competition of Deutsche Stiftung Denkmalschutz (3000+ participants) | 1st Place in \href{https://some.3b1b.co/}{\underline{3Blue1Brown Competition "Summer of Math exposition"} | Scholar of the federal merit-based "Deutschland Stipendium"}
+        \end{onecolentry}
 
 
-%         \begin{twocolentry}{
-            
-%         }
-%             \textbf{Video Producer}, Schalke 04 E-sports - produced advertisement for newly signed players \end{twocolentry}
-
-%        \begin{twocolentry}{
-            
-%         }
-%             \href{https://hollbeckg0.wixsite.com/gaborhollbeck}{\underline{\textbf{My second website }}}, 6+ years professional experience, 30+ profession/private projects  \end{twocolentry}
-
-    
 \end{document}
