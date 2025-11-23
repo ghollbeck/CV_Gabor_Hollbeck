@@ -1,6 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1763903122.44009 "/Users/gaborhollbeck/Desktop/GitHub/23_CV Gabor/CV_Gabor.tex" "CV_Gabor.pdf" "CV_Gabor" 1763903123.17185 0
-  "/Users/gaborhollbeck/Desktop/GitHub/23_CV Gabor/CV_Gabor.tex" 1763903121.62926 20174 9fc3d3b03f34c198597d22dc0a8b1feb ""
+["pdflatex"] 1763903549.50419 "kurzversion/CV_Gabor_kurz.tex" "CV_Gabor_kurz.pdf" "CV_Gabor_kurz" 1763903550.31025 0
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1202520719 2840 216e6e45ad352e2456e1149f28885bee ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -8,8 +7,6 @@
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/bitstrea/charter/bchb8t.tfm" 1136768653 7436 84dcb1fa28471725ae91386499aed8eb ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/bitstrea/charter/bchr8r.tfm" 1136768653 4644 551129616ea4f62d8f0094a3db9a3f9d ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/bitstrea/charter/bchr8t.tfm" 1136768653 6836 75e8167634b71810c3dd726622b1fd1d ""
-  "/usr/local/texlive/2025/texmf-dist/fonts/tfm/bitstrea/charter/bchri8r.tfm" 1136768653 4976 cfc4dd38b8fb809ad0d6138823dff41a ""
-  "/usr/local/texlive/2025/texmf-dist/fonts/tfm/bitstrea/charter/bchri8t.tfm" 1136768653 7404 b40c8312b058695e3a8ab703baeec068 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm" 1136768653 3584 adb004a0c8e7c46ee66cad73671f37b4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/lmex10.tfm" 1148093231 992 ce925c9346c7613270a79afbee98c070 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/lmmi10.tfm" 1148093231 1528 6d36b2385e0ca062a654de6ac59cb34f ""
@@ -29,12 +26,10 @@
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmr9.tfm" 1254269338 11884 c93929a6974dce79eabb778f219d7e18 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb" 1136849748 33799 6c8c18c1e1a138641a52c29f0b878445 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb" 1136849748 34869 539b6fed90ef630e9049bc13079bc598 ""
-  "/usr/local/texlive/2025/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb" 1136849748 35118 12369bddf1a14581d11fcdbf86619250 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb" 1254269338 27863 09ce3735688ffde955e72da27c95b61a ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy9.pfb" 1254269338 27835 16c2fa83351d4ef8cf5aebfab8a44bc1 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/vf/bitstrea/charter/bchb8t.vf" 1136768653 2348 8d5673a28b31b0de9aa581c30f65dd1e ""
   "/usr/local/texlive/2025/texmf-dist/fonts/vf/bitstrea/charter/bchr8t.vf" 1136768653 2348 67712062c9694a242fa13da6829cc4f1 ""
-  "/usr/local/texlive/2025/texmf-dist/fonts/vf/bitstrea/charter/bchri8t.vf" 1136768653 2312 5e1caa81ceda1b9597784aa61c5b5510 ""
   "/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2025/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1575674566 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "/usr/local/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty" 1576625341 40635 c40361e206be584d448876bba8a64a3b ""
@@ -116,10 +111,10 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1745740951 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1745740724 3345738 daaaa0e7dec41f9d92ec442b73b9e2c8 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "CV_Gabor.aux" 1763903123.12556 2946 847bb2467fe13a257c3bcd1917978bdd "pdflatex"
-  "CV_Gabor.tex" 1763903121.62926 20174 9fc3d3b03f34c198597d22dc0a8b1feb ""
+  "CV_Gabor_kurz.aux" 1763903550.26133 2445 72dd11961381f3fe64d1c408cb7e244a "pdflatex"
+  "kurzversion/CV_Gabor_kurz.tex" 1763903548.89856 9925 ab8757f9a8ae1f1ddfa70376019d8747 ""
   (generated)
-  "CV_Gabor.aux"
-  "CV_Gabor.log"
-  "CV_Gabor.pdf"
+  "CV_Gabor_kurz.aux"
+  "CV_Gabor_kurz.log"
+  "CV_Gabor_kurz.pdf"
   (rewritten before read)
