@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1763903122.44009 "/Users/gaborhollbeck/Desktop/GitHub/23_CV Gabor/CV_Gabor.tex" "CV_Gabor.pdf" "CV_Gabor" 1763903123.17185 0
-  "/Users/gaborhollbeck/Desktop/GitHub/23_CV Gabor/CV_Gabor.tex" 1763903121.62926 20174 9fc3d3b03f34c198597d22dc0a8b1feb ""
+["pdflatex"] 1768600698.20333 "/Users/gaborhollbeck/Desktop/GitHub/23_CV Gabor/LongVersion/CV_Gabor.tex" "CV_Gabor.pdf" "CV_Gabor" 1768600698.87746 0
+  "/Users/gaborhollbeck/Desktop/GitHub/23_CV Gabor/LongVersion/CV_Gabor.tex" 1763903121.62926 20174 9fc3d3b03f34c198597d22dc0a8b1feb ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1202520719 2840 216e6e45ad352e2456e1149f28885bee ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -116,7 +116,7 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1745740951 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1745740724 3345738 daaaa0e7dec41f9d92ec442b73b9e2c8 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "CV_Gabor.aux" 1763903123.12556 2946 847bb2467fe13a257c3bcd1917978bdd "pdflatex"
+  "CV_Gabor.aux" 1768600698.82746 2946 847bb2467fe13a257c3bcd1917978bdd "pdflatex"
   "CV_Gabor.tex" 1763903121.62926 20174 9fc3d3b03f34c198597d22dc0a8b1feb ""
   (generated)
   "CV_Gabor.aux"

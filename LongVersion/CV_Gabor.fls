@@ -1,9 +1,9 @@
-PWD /Users/gaborhollbeck/Desktop/GitHub/23_CV Gabor
+PWD /Users/gaborhollbeck/Desktop/GitHub/23_CV Gabor/LongVersion
 INPUT /usr/local/texlive/2025/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT kurzversion/CV_Gabor_kurz.tex
-OUTPUT CV_Gabor_kurz.log
+INPUT /Users/gaborhollbeck/Desktop/GitHub/23_CV Gabor/LongVersion/CV_Gabor.tex
+OUTPUT CV_Gabor.log
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/size10.clo
@@ -160,15 +160,15 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/t1bch.fd
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/t1bch.fd
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/t1bch.fd
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/bitstrea/charter/bchr8t.tfm
-INPUT ./CV_Gabor_kurz.aux
-INPUT ./CV_Gabor_kurz.aux
-INPUT CV_Gabor_kurz.aux
-OUTPUT CV_Gabor_kurz.aux
+INPUT ./CV_Gabor.aux
+INPUT ./CV_Gabor.aux
+INPUT CV_Gabor.aux
+OUTPUT CV_Gabor.aux
 INPUT /usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
-OUTPUT CV_Gabor_kurz.pdf
+OUTPUT CV_Gabor.pdf
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ot1lmr.fd
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ot1lmr.fd
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ot1lmr.fd
@@ -201,19 +201,23 @@ INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/lmmi9.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/lmmi6.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/lmsy9.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/lmsy6.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/bitstrea/charter/bchri8t.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/bitstrea/charter/bchr8t.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/bitstrea/charter/bchr8r.tfm
 INPUT /usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/bitstrea/charter/bchr8t.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/bitstrea/charter/bchr8r.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/bitstrea/charter/bchb8t.vf
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/bitstrea/charter/bchb8r.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/bitstrea/charter/bchb8t.vf
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/bitstrea/charter/bchb8r.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/bitstrea/charter/bchb8t.vf
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/bitstrea/charter/bchb8r.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/bitstrea/charter/bchb8t.vf
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/bitstrea/charter/bchb8r.tfm
-INPUT CV_Gabor_kurz.aux
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/bitstrea/charter/bchri8t.vf
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/bitstrea/charter/bchri8r.tfm
+INPUT CV_Gabor.aux
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy9.pfb

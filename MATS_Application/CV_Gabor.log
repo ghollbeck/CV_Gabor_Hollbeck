@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.27)  23 NOV 2025 14:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.27)  16 JAN 2026 23:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/gaborhollbeck/Desktop/GitHub/23_CV Gabor/CV_Gabor.tex"
-(/Users/gaborhollbeck/Desktop/GitHub/23_CV Gabor/CV_Gabor.tex
+**"/Users/gaborhollbeck/Desktop/GitHub/23_CV Gabor/MATS_Application/CV_Gabor.tex"
+(/Users/gaborhollbeck/Desktop/GitHub/23_CV Gabor/MATS_Application/CV_Gabor.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
@@ -499,12 +499,16 @@ LaTeX Font Info:    External font `lmex10' loaded for size
  [1
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
+LaTeX Font Info:    Trying to load font information for TS1+bch on input line 563.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ts1bch.fd
+File: ts1bch.fd 2004/10/18 font definitions for TS1/bch.
+)
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.673 \end{document}
+l.631 \end{document}
                      [2] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
 
@@ -519,18 +523,18 @@ L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 15489 strings out of 473190
- 262208 string characters out of 5715800
- 689763 words of memory out of 5000000
- 38534 multiletter control sequences out of 15000+600000
- 594397 words of font info for 64 fonts, out of 8000000 for 9000
+ 15515 strings out of 473190
+ 262656 string characters out of 5715800
+ 690763 words of memory out of 5000000
+ 38556 multiletter control sequences out of 15000+600000
+ 594714 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,7n,79p,504b,736s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,7n,79p,521b,736s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy9.pfb>
-Output written on CV_Gabor.pdf (2 pages, 65029 bytes).
+Output written on CV_Gabor.pdf (2 pages, 65893 bytes).
 PDF statistics:
- 101 PDF objects out of 1000 (max. 8388607)
- 86 compressed objects within 1 object stream
+ 107 PDF objects out of 1000 (max. 8388607)
+ 92 compressed objects within 1 object stream
  9 named destinations out of 1000 (max. 500000)
  57 words of extra memory for PDF output out of 10000 (max. 10000000)
 

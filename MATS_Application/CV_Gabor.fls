@@ -1,8 +1,8 @@
-PWD /Users/gaborhollbeck/Desktop/GitHub/23_CV Gabor
+PWD /Users/gaborhollbeck/Desktop/GitHub/23_CV Gabor/MATS_Application
 INPUT /usr/local/texlive/2025/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/gaborhollbeck/Desktop/GitHub/23_CV Gabor/CV_Gabor.tex
+INPUT /Users/gaborhollbeck/Desktop/GitHub/23_CV Gabor/MATS_Application/CV_Gabor.tex
 OUTPUT CV_Gabor.log
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
@@ -215,6 +215,11 @@ INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/bitstrea/charter/bchb8r.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/bitstrea/charter/bchri8t.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/bitstrea/charter/bchri8r.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ts1bch.fd
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ts1bch.fd
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ts1bch.fd
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/bitstrea/charter/bchr8c.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/bitstrea/charter/bchr8c.vf
 INPUT CV_Gabor.aux
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb
